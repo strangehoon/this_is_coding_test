@@ -1,0 +1,16 @@
+S = input()
+S_list = list(S)
+
+result = 1
+for i in range(len(S_list)-1):
+    # 두 값 중 0 또는 1이 있으면 덧셈
+    if int(S_list[i]) >1 and int(S_list[i+1]) >1 :
+        result = int(S_list[i]) * int(S_list[i+1])
+        S_list[i+1] = result
+    # 두 값 중 0또는 1이 없으면 곱셈
+    else:
+        result = int(S_list[i]) + int(S_list[i+1])
+        S_list[i+1] = result
+
+print(result)
+
