@@ -1,3 +1,5 @@
+# Python 
+```python
 from collections import deque
 
 # BFS 메서드 정의
@@ -35,3 +37,5 @@ visited = [False] * 9
 
 # 정의된 BFS 함수 호출
 bfs(graph, 1, visited)
+
+```
