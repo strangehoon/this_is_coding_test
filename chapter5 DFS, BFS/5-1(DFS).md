@@ -1,3 +1,5 @@
+# Python 
+```python
 # DFS 메서드 정의
 def dfs(graph, v, visited):
     # 현재 노드를 방문 처리
@@ -26,3 +28,5 @@ visited = [False] * 9
 
 # 정의된 DFS 함수 호출
 dfs(graph, 1, visited)
+
+```
